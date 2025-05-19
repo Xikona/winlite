@@ -5,4 +5,4 @@ choco install firefox -y
 choco install qbittorrent -y
 choco install onlyoffice -y
 
-cls & echo. & echo  Press any key & pause >nul 2>&1
+cls & echo. & echo. [101;41mOpen Firefox[0m & echo  press any key & pause >nul
