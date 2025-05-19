@@ -9,3 +9,5 @@ user_pref("full-screen-api.warning.timeout", 0);
 user_pref("webgl.angle.force-d3d11", true);
 // disable task
 user_pref("default-browser-agent.enabled", false);
+// dont close last-tab
+user_pref("browser.tabs.closeWindowWithLastTab", false);
