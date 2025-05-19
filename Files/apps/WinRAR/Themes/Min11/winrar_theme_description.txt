@@ -1,0 +1,2 @@
+title=Min11 WinRAR Theme 32x32 (Dark Mode)
+about=Minimal style theme for WinRAR in Dark Mode \nDesigned by THEVAN3D

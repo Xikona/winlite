@@ -1,0 +1,5 @@
+hide_tray_icon: true
+window_rules:
+  - match: "Global"
+    active_border_color: "#4D4D4D"
+    inactive_border_color: "#191919"
