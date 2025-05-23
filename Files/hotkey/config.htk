@@ -1,0 +1,49 @@
+hotKeys7 8 1
+Taskmgr
+C:\Windows\System32\Taskmgr.exe
+
+
+
+1966081 65 8 0 1 0 -1 0 0
+Search
+C:\Windows\Extras\Search\everything.exe
+
+
+
+2162689 70 8 0 1 0 -1 0 0
+
+
+
+
+
+3014657 67 8 0 1 0 9 0 0
+restart explorer
+C:\Windows\restart.bat
+
+
+
+1638401 80 8 0 1 0 -1 0 0
+hotkeyR
+C:\Windows\Extras\Hotkey\hotkeyR.bat
+
+
+
+1572865 79 8 2 1 0 -1 0 0
+cmd
+C:\Windows\System32\cmd.exe
+
+
+
+1310721 84 8 0 1 0 -1 0 0
+
+
+
+
+
+983041 9 4 0 1 0 81 0 0
+firefox
+C:\Program Files\Mozilla Firefox\firefox.exe
+
+
+
+1048577 81 8 1 1 0 -1 0 0
