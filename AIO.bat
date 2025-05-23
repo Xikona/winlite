@@ -269,7 +269,7 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Explorer" /t reg_dword /v "Sho
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /t reg_dword /v "TaskbarAl" /d "0" /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /t reg_dword /v "TaskbarGlomLevel" /d "3" /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /t reg_dword /v "TaskbarSmallIcons" /d "1" /f
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /t reg_dword /v "ExtendedUIHoverTime" /d "256" /f
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /t reg_dword /v "ExtendedUIHoverTime" /d "80" /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /t reg_dword /v "TaskbarSd" /d "0" /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /t reg_dword /v "ShowNotificationIcon" /d "0" /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /t reg_dword /v "NoTrayContextMenu" /d "1" /f
