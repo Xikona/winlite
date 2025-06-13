@@ -18,8 +18,10 @@ if /i %c% equ 6 goto :chocoset
 ::( cd /d "Files\nvidia" & nvidia.exe
 ::reg delete "HKEY_CURRENT_USER\Software\techPowerUp" /f ) >nul 2>&1
 ::if exist "%programfiles%\NVIDIA Corporation" (
+cd /d "Files\nvidia"
 75Hz.exe /i
 restart-only.exe
+exit /b
 ::exit /b ) else (exit /b)
 :script
 echo. & echo. Script is running...
