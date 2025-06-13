@@ -1,0 +1,31 @@
+www.google.com##.Umvnrc
+www.google.com##.XDyW0e
+www.google.com##.Tg7LZd.HZVG1b
+www.google.com##.sfbg
+www.google.com##.logo
+www.google.com##.KLEmSd.qS9jbf.ym1pid
+www.google.com##.YNk70c.TrMVnc.f6F9Be
+www.google.com##.oeN89d
+www.google.com##.EIaa9b
+www.google.com##.adDDi.PJI6ge.M6HR1c
+www.google.com##.y6Uyqe
+www.google.com###slim_appbar
+www.google.com##.a1DBFd
+www.google.com##.Ye4jfc.G43f7e
+www.google.com##div.OBMEnb > .ynRric
+www.google.com##.rLrQHf
+www.google.com###GzLgge
+www.google.com##.mWcf0e.WzNHm > .LRZwuc.VfL2Y
+
+rezka.fi##.b-tophead__subscribe-dropdown-inner
+rezka.fi##.wide.b-dwnapp
+rezka.fi##.b-collections__newest
+rezka.fi##.b-footer
+rezka.fi##.b-content__main > .b-post__mixedtext
+rezka.fi##.b-post__lastepisodeout
+rezka.fi##.b-post__wait_status
+rezka.fi##.b-post__support_holder
+rezka.fi##.tooltipstered.hd-tooltip.b-post__support_holder_report
+rezka.fi##.b-post__rating
+rezka.fi##.b-post__rating_table .label
+rezka.fi##.b-content__crumbs

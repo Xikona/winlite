@@ -1,0 +1,24 @@
+* #context-navigation,
+* #context-back,
+* #context-forward,
+* #context-reload,
+* #context-bookmarkpage,
+* #context-sep-navigation,
+* #context-savepage,
+* #context-selectall,
+* #context-sep-selectall,
+* #context-viewsource,
+* #context-inspect,
+* #context-sep-screenshots,
+
+* #context-openlinkintab,
+* #context-openlink,
+* #context-bookmarklink,
+* #context-savelink,
+* #context-stripOnShareLink,
+* #context-searchselect,
+* #frame-sep,
+* #context-sep-sendlinktodevice,
+
+#leave_this_dummy_here
+    { display:none !important; }
