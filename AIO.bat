@@ -381,6 +381,8 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution 
 reg add "HKCU\Software\Instant Eyedropper" /t reg_sz /v "zoom" /d "3" /f
 reg add "HKCU\Software\Instant Eyedropper" /t reg_sz /v "hotkeymods" /d "0" /f
 reg add "HKCU\Software\Instant Eyedropper" /t reg_sz /v "hotkeyvk" /d "45" /f
+:: search
+attrib +r "%windir%\Extras\Search\Everything.ini"
 :: startup
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /t reg_sz /v "ScreenX" /d "%windir%\Extras\ScreenX\Lightshot.exe" /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /t reg_sz /v "Color" /d "%windir%\Extras\Color\instanteyedropper.exe" /f
