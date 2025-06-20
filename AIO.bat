@@ -15,8 +15,8 @@ if /i %c% equ 4 goto :apps
 if /i %c% equ 5 goto :chocoinst
 if /i %c% equ 6 goto :chocoset
 :nvidia
-( cd /d "Files\nvidia" & nvidia.exe
-reg delete "HKEY_CURRENT_USER\Software\techPowerUp" /f ) >nul 2>&1
+cd /d "Files\nvidia" & nvidia.exe
+reg delete "HKEY_CURRENT_USER\Software\techPowerUp" /f >nul 2>&1
 if exist "%programfiles%\NVIDIA Corporation" (
 75Hz.exe /i
 restart-only.exe
