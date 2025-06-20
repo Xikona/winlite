@@ -15,14 +15,12 @@ if /i %c% equ 4 goto :apps
 if /i %c% equ 5 goto :chocoinst
 if /i %c% equ 6 goto :chocoset
 :nvidia
-::( cd /d "Files\nvidia" & nvidia.exe
-::reg delete "HKEY_CURRENT_USER\Software\techPowerUp" /f ) >nul 2>&1
-::if exist "%programfiles%\NVIDIA Corporation" (
-cd /d "Files\nvidia"
+( cd /d "Files\nvidia" & nvidia.exe
+reg delete "HKEY_CURRENT_USER\Software\techPowerUp" /f ) >nul 2>&1
+if exist "%programfiles%\NVIDIA Corporation" (
 75Hz.exe /i
 restart-only.exe
-exit /b
-::exit /b ) else (exit /b)
+exit /b ) else (exit /b)
 :script
 echo. & echo. Script is running...
 :: activation
@@ -341,6 +339,7 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /t reg_sz /v "ahk" 
 Files\sab.exe
 copy "Files\bin\start.svg" "%programfiles%\StartAllBack\Orbs"
 reg add "HKCU\Software\StartIsBack" /t reg_sz /v "OrbBitmap" /d "%programfiles%\StartAllBack\Orbs\start.svg" /f
+ren "%programfiles%\StartAllBack\UpdateCheck.exe" "StopUpdateCheck.exe"
 schtasks /change /disable /tn "\StartAllBack Update"
 :: system
 reg delete "HKCU\AppEvents\Schemes\Apps" /f
